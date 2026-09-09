@@ -6,10 +6,23 @@
     "primary": "#16A34A"
   },
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "Get Started",
-        "pages": ["index", "quickstart","test"]
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": ["index", "quickstart", "test"]
+          }
+        ]
+      },
+      {
+        "tab": "SDK Reference",
+        "sdk": {
+          "format": "typedoc",
+          "source": "sdk-artifacts/auth0-spa-js.json",
+          "directory": "sdk/spa-js"
+        }
       }
     ]
   }
