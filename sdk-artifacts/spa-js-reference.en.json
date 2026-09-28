@@ -42,7 +42,8 @@
             "docs/sdk/typescript/interfaces/RedirectConnectAccountOptions",
             "docs/sdk/typescript/interfaces/RedirectLoginOptions",
             "docs/sdk/typescript/interfaces/RedirectLoginResult",
-            "docs/sdk/typescript/types/ConnectAccountRedirectResult"
+            "docs/sdk/typescript/types/ConnectAccountRedirectResult",
+            "docs/sdk/typescript/enums/ResponseType"
           ]
         },
         {
@@ -87,8 +88,12 @@
         {
           "group": "Passkeys",
           "pages": [
+            "docs/sdk/typescript/interfaces/PasskeyAuthenticationMethod",
             "docs/sdk/typescript/interfaces/PasskeyCreationOptions",
             "docs/sdk/typescript/interfaces/PasskeyCredentialResponse",
+            "docs/sdk/typescript/interfaces/PasskeyEnrollmentChallengeOptions",
+            "docs/sdk/typescript/interfaces/PasskeyEnrollmentChallengeResponse",
+            "docs/sdk/typescript/interfaces/PasskeyEnrollmentVerifyOptions",
             "docs/sdk/typescript/interfaces/PasskeyErrorResponse",
             "docs/sdk/typescript/interfaces/PasskeyLoginChallengeOptions",
             "docs/sdk/typescript/interfaces/PasskeyLoginChallengeResponse",
@@ -115,10 +120,6 @@
             "docs/sdk/typescript/interfaces/EmailEnrollmentVerifyOptions",
             "docs/sdk/typescript/interfaces/ErrorResponse",
             "docs/sdk/typescript/interfaces/Factor",
-            "docs/sdk/typescript/interfaces/PasskeyAuthenticationMethod",
-            "docs/sdk/typescript/interfaces/PasskeyEnrollmentChallengeOptions",
-            "docs/sdk/typescript/interfaces/PasskeyEnrollmentChallengeResponse",
-            "docs/sdk/typescript/interfaces/PasskeyEnrollmentVerifyOptions",
             "docs/sdk/typescript/interfaces/PasswordAuthenticationMethod",
             "docs/sdk/typescript/interfaces/PasswordEnrollmentChallengeOptions",
             "docs/sdk/typescript/interfaces/PasswordEnrollmentChallengeResponse",
@@ -193,12 +194,6 @@
             "docs/sdk/typescript/types/KeyManifestEntry",
             "docs/sdk/typescript/types/MaybePromise",
             "docs/sdk/typescript/types/WrappedCacheEntry"
-          ]
-        },
-        {
-          "group": "Other Types",
-          "pages": [
-            "docs/sdk/typescript/enums/ResponseType"
           ]
         }
       ]
