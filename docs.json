@@ -17,17 +17,35 @@
         ]
       },
       {
-        "tab": "SDK Reference",
-        "icon": "book",
-        "$ref": "sdk-artifacts/spa-js-reference.en.json"
-      },
-      {
-        "tab": "SDK Reference (generated)",
-        "hidden": true,
+        "tab": "Auth0 spa SDK",
         "sdk": {
           "format": "typedoc",
           "source": "sdk-artifacts/auth0-spa-js.json",
           "directory": "docs/sdk/typescript"
+        }
+      },
+      {
+        "tab": "nextjs-auth0 (generated)",
+        "sdk": {
+          "format": "typedoc",
+          "source": "sdk-artifacts/nextjs-auth0.json",
+          "directory": "docs/sdk/nextjs"
+        }
+      },
+      {
+        "tab": "auth0-server-json (generated)",
+        "sdk": {
+          "format": "typedoc",
+          "source": "sdk-artifacts/auth0-server-js.json",
+          "directory": "docs/sdk/auth0-server-json"
+        }
+      },
+      {
+        "tab": "mvc-auth-commons (Java)",
+        "sdk": {
+          "format": "javadoc",
+          "source": "https://repo1.maven.org/maven2/com/auth0/mvc-auth-commons/1.12.0/mvc-auth-commons-1.12.0-javadoc.jar",
+          "directory": "docs/sdk/java"
         }
       }
     ]
