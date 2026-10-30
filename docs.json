@@ -48,6 +48,12 @@
       },
       {
         "tab": "auth0-server-python (generated)",
+        "groups": [
+          {
+            "group": "Getting Started with Readme-mdx",
+            "pages": ["docs/sdk/auth0-server-python/overview"]
+          }
+        ],
         "sdk": {
           "format": "sphinx",
           "source": "sdk-artifacts/auth0-server-python",
