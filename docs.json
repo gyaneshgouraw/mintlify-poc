@@ -53,11 +53,8 @@
           "source": "https://repo1.maven.org/maven2/com/auth0/mvc-auth-commons/1.12.0/mvc-auth-commons-1.12.0-javadoc.jar",
           "directory": "docs/sdk/java"
         }
-      },
-      {
-        "tab": "auth0-server-python (Sphinx)",
-        "$ref": "docs/sdk/python/server/navigation.json"
       }
+      
     ]
   }
 }
