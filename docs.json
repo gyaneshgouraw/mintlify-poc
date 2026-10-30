@@ -34,6 +34,12 @@
       },
       {
         "tab": "auth0-server-json (generated)",
+        "groups": [
+          {
+            "group": "Getting Started-mdx-file",
+            "pages": ["docs/sdk/auth0-server-json/overview"]
+          }
+        ],
         "sdk": {
           "format": "typedoc",
           "source": "sdk-artifacts/auth0-server-js.json",
