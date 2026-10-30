@@ -47,6 +47,14 @@
         }
       },
       {
+        "tab": "auth0-server-python (generated)",
+        "sdk": {
+          "format": "sphinx",
+          "source": "sdk-artifacts/auth0-server-python",
+          "directory": "docs/sdk/auth0-server-python"
+        }
+      },
+      {
         "tab": "mvc-auth-commons (Java)",
         "sdk": {
           "format": "javadoc",
